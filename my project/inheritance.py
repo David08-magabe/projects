@@ -18,6 +18,6 @@ class Male(Human):
         self.name=name
 male1 = Male("name")
 print(male1.num_eyes)
-# male1.eat()
-# male1.drink()
-# male1.work()
+male1.eat()
+male1.drink()
+male1.work()
